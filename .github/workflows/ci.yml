@@ -12,7 +12,7 @@ permissions:
 jobs:
   test:
     name: tests (Python ${{ matrix.python-version }})
-    runs-on: ffxf-2vcpu-ubuntu-2404
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
